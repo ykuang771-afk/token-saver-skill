@@ -1,0 +1,7 @@
+interface:
+  display_name: "Token Saver"
+  short_description: "Current model plans and reviews; Luna implements"
+  default_prompt: "Use $token-saver to plan this task with the current model, delegate implementation to Luna, review the result, and take over only if Luna cannot finish."
+
+policy:
+  allow_implicit_invocation: true
